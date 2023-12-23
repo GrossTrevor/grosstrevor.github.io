@@ -1,2 +1,1 @@
-# grosstrevor.github.io
-My custom website
+# [trevorjgross.com](www.trevorjgross.com)
