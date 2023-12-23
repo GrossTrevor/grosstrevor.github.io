@@ -1,2 +1,1 @@
-# grosstrevor.github.io
-My custom website
+# <a href="http://www.trevorjgross.com" target="_blank">trevorjgross.com</a>
