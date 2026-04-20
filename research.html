@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research — Trevor Gross</title>
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">Trevor Gross</a>
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="research.html" class="active">Research</a></li>
+      <li><a href="isp.html">ISP</a></li>
+      <li><a href="coursework.html">Coursework</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="leadership.html">Leadership</a></li>
+      <li><a href="resume.html">Resume</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <h1>Research</h1>
+  <p>Honors thesis, published systems research, NLP, and AI ethics spanning the GATAS Lab, FINS, and the Bob Graham Civic Scholars Program.</p>
+</div>
+
+<section class="section">
+  <div class="section-inner">
+
+    <p style="font-size: 15.5px; color: var(--text-secondary); line-height: 1.75; max-width: 780px; margin-bottom: 16px;">
+      My research spans distributed optimization, multi-agent control, NLP, and AI ethics. I conduct undergraduate research in the GATAS Lab at the Florida Institute of National Security (FINS) at UF, and I am completing an honors thesis on sheaf-theoretic control architectures for heterogeneous UAV swarms through the University Scholars Program.
+    </p>
+    <p style="font-size: 15.5px; color: var(--text-secondary); line-height: 1.75; max-width: 780px; margin-bottom: 52px;">
+      My published work was accepted to the IEEE Conference on Decision and Control 2025 and presented in Rio de Janeiro. I have also conducted NLP research at the PhD level and presented AI ethics research through the Bob Graham Center for Public Service.
+    </p>
+
+    <!-- Honors Thesis -->
+    <div class="project-card">
+      <div class="project-card-header">
+        <div class="project-badge badge-current">Honors Thesis — Spring 2026</div>
+        <h3>A Sheaf-LQR Architecture for Heterogeneous Formation Control</h3>
+      </div>
+      <div class="project-card-body">
+        <div>
+          <div class="project-meta">
+            <div>
+              <div class="meta-label">Thesis Advisor</div>
+              <div class="meta-value">Dr. James Fairbanks</div>
+            </div>
+            <div>
+              <div class="meta-label">Committee</div>
+              <div class="meta-value">Dr. Rushikesh Kamalapurkar, Dr. Kejun Huang</div>
+            </div>
+            <div>
+              <div class="meta-label">Institution</div>
+              <div class="meta-value">GATAS Lab, FINS, University of Florida</div>
+            </div>
+            <div>
+              <div class="meta-label">Language</div>
+              <div class="meta-value">Julia</div>
+            </div>
+          </div>
+
+          <p class="project-desc">
+            My honors thesis develops a sheaf-theoretic control architecture for heterogeneous multi-agent systems, extending the sheaf Laplacian framework to coordinate agents with differing dynamics. I formalize the problem as a distributed LQR design over a cellular sheaf, enabling locally optimal control policies to be composed into a globally coherent formation control strategy.
+          </p>
+          <p class="project-desc">
+            The work targets heterogeneous UAV swarms and demonstrates that sheaf-structured communication can enforce consensus across agents with distinct state spaces. I presented this research at the UF Spring Research Symposium and am preparing a journal submission for publication.
+          </p>
+
+          <div class="photo-placeholder" style="min-height: 140px; margin-top: 24px;">
+            <div class="ph-inner">
+              <i class="fa-regular fa-image"></i>
+              <span>Add Thesis Figure Here</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-img-box">
+          <img src="img/vehicles.png" alt="Sheaf-LQR formation control numerical examples">
+        </div>
+      </div>
+    </div>
+
+    <!-- Published IEEE CDC Paper -->
+    <div class="project-card">
+      <div class="project-card-header">
+        <div class="project-badge badge-past">Published — IEEE CDC 2025</div>
+        <h3>Distributed Multi-agent Coordination over Cellular Sheaves</h3>
+      </div>
+      <div class="project-card-body">
+        <div>
+          <div class="project-meta">
+            <div>
+              <div class="meta-label">Principal Investigator</div>
+              <div class="meta-value">Dr. James Fairbanks</div>
+            </div>
+            <div>
+              <div class="meta-label">Institution</div>
+              <div class="meta-value">GATAS Lab, FINS, University of Florida</div>
+            </div>
+            <div>
+              <div class="meta-label">Presented</div>
+              <div class="meta-value">Rio de Janeiro, Dec. 11, 2025</div>
+            </div>
+            <div>
+              <div class="meta-label">Languages</div>
+              <div class="meta-value">Julia, Python</div>
+            </div>
+          </div>
+
+          <p class="project-desc">
+            Co-authored and published research on distributed optimization for multi-agent coordination using cellular sheaf theory. I developed distributed optimization algorithms to improve coordination across decentralized systems, expanded quadrotor control dynamics research using sheaf Laplacians and LQR, and integrated reinforcement learning to enhance decision-making across networked agents.
+          </p>
+          <p class="project-desc">
+            Accepted to the IEEE Conference on Decision and Control 2025, one of the premier international conferences in systems and control engineering. I presented the work in Rio de Janeiro and have previously presented to industry professionals and Department of Defense representatives.
+          </p>
+
+          <a href="https://arxiv.org/abs/2504.02049" target="_blank" class="project-link-btn">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            Read the Paper on arXiv
+          </a>
+        </div>
+
+        <div class="project-img-box">
+          <img src="img/examples.png" alt="Multi-agent vehicle coordination diagram">
+        </div>
+      </div>
+    </div>
+
+    <!-- NLP Research -->
+    <div class="project-card">
+      <div class="project-card-header">
+        <div class="project-badge badge-past">NLP Research</div>
+        <h3>Unsupervised Parsing of AMR Graphs</h3>
+      </div>
+      <div class="project-card-body">
+        <div>
+          <div class="project-meta">
+            <div>
+              <div class="meta-label">Advisor</div>
+              <div class="meta-value">Dr. Bonnie Dorr</div>
+            </div>
+            <div>
+              <div class="meta-label">Institution</div>
+              <div class="meta-value">University of Florida</div>
+            </div>
+            <div>
+              <div class="meta-label">Level</div>
+              <div class="meta-value">PhD-level coursework</div>
+            </div>
+          </div>
+
+          <p class="project-desc">
+            Conducted NLP research in a PhD-level course under Dr. Bonnie Dorr, developing the first known framework for parsing Abstract Meaning Representation (AMR) graphs without pre-training. The unsupervised approach addresses a longstanding dependency on large labeled corpora in AMR parsing, opening new directions for low-resource semantic parsing.
+          </p>
+        </div>
+
+        <div class="project-img-box">
+          <img src="img/Screenshot 2026-04-19 222026.png" alt="AMR graph encoder-decoder architecture diagram">
+        </div>
+      </div>
+    </div>
+
+    <!-- Bob Graham AI Ethics -->
+    <div class="project-card">
+      <div class="project-card-header">
+        <div class="project-badge badge-past">AI Ethics Research</div>
+        <h3>Ethical Conclusions: Bias Within AI and Deep Learning</h3>
+      </div>
+      <div class="project-card-body">
+        <div>
+          <div class="project-meta">
+            <div>
+              <div class="meta-label">Advisors</div>
+              <div class="meta-value">Ms. Audrey Smith, Dr. Matt Jacobs</div>
+            </div>
+            <div>
+              <div class="meta-label">Program</div>
+              <div class="meta-value">Bob Graham Civic Scholars</div>
+            </div>
+            <div>
+              <div class="meta-label">Venue</div>
+              <div class="meta-value">Bob Graham Center Research Symposium</div>
+            </div>
+          </div>
+
+          <p class="project-desc">
+            Conducted AI ethics research through the Bob Graham Civic Scholars Program, examining systemic bias in AI and deep learning systems. Analyzed how training data, model architecture, and deployment context contribute to discriminatory outcomes, and presented findings at the Bob Graham Center Research Symposium.
+          </p>
+        </div>
+
+        <div class="project-img-box">
+          <img src="img/IMG_3340.jpg" alt="Trevor Gross at the Bob Graham Center Research Symposium">
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <div class="footer-name">Trevor Gross</div>
+      <div class="footer-tagline">Computer Science · University of Florida</div>
+    </div>
+    <div class="footer-links">
+      <a href="mailto:grosstrevor000@gmail.com" class="footer-link"><i class="fa-solid fa-envelope"></i> Email</a>
+      <a href="https://www.linkedin.com/in/trevorjgross/" target="_blank" class="footer-link"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+      <a href="https://github.com/GrossTrevor" target="_blank" class="footer-link"><i class="fa-brands fa-github"></i> GitHub</a>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 Trevor J. Gross</div>
+</footer>
+
+<script src="js/nav.js"></script>
+</body>
+</html>
